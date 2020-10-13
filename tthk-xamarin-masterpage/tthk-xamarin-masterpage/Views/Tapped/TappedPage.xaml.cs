@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace tthk-xamarin-masterpage.Views.Tapped
+namespace tthk_xamarin_masterpage.Views.Tapped
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 public partial class TappedPage : ContentPage

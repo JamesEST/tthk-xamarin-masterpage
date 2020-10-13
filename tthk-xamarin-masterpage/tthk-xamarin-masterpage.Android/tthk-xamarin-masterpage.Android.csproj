@@ -68,6 +68,22 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\audi.png" />
+    <AndroidResource Include="Resources\drawable\avatar.jpg" />
+    <AndroidResource Include="Resources\drawable\bmw.png" />
+    <AndroidResource Include="Resources\drawable\chevrolet.png" />
+    <AndroidResource Include="Resources\drawable\ford.png" />
+    <AndroidResource Include="Resources\drawable\Hamburgericon.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable\lexus.png" />
+    <AndroidResource Include="Resources\drawable\mercedesbenz.png" />
+    <AndroidResource Include="Resources\drawable\mitsubishi.png" />
+    <AndroidResource Include="Resources\drawable\nissan.png" />
+    <AndroidResource Include="Resources\drawable\peugeot.png" />
+    <AndroidResource Include="Resources\drawable\pinimg.png" />
+    <AndroidResource Include="Resources\drawable\renault.png" />
+    <AndroidResource Include="Resources\drawable\tesla.png" />
+    <AndroidResource Include="Resources\drawable\toyota.png" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
@@ -84,9 +100,6 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\tthk-xamarin-masterpage\tthk-xamarin-masterpage.csproj">

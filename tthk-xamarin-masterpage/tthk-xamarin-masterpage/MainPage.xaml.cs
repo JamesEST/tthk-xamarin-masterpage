@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using tthk_xamarin_masterpage.Models;
 using Xamarin.Forms;
 using tthk_xamarin_masterpage.Views.Toyota;
@@ -19,7 +15,7 @@ using tthk_xamarin_masterpage.Views.Peugeot;
 using tthk_xamarin_masterpage.Views.Renault;
 using tthk_xamarin_masterpage.Views.Tesla;
 using tthk_xamarin_masterpage.Views;
-using tthk;
+using tthk_xamarin_masterpage.Views.Tapped;
 
 namespace tthk_xamarin_masterpage
 {
@@ -32,7 +28,7 @@ namespace tthk_xamarin_masterpage
         {
             InitializeComponent();
             MenuList = new List<MasterPageItem>();
-            var page1 = new MasterPageItem() { Id = 1, Title = "Tabbed", Icon = "bmw.png" };
+            var page1 = new MasterPageItem() { Id = 1, Title = "Tabbed", Icon = "pinimg.png" };
             var page2 = new MasterPageItem() { Id = 1, Title = "Bmw", Icon = "bmw.png" };
             var page3 = new MasterPageItem() { Id = 2, Title = "Audi", Icon = "audi.png" };
             var page4 = new MasterPageItem() { Id = 3, Title = "Ford", Icon = "ford.png" };
