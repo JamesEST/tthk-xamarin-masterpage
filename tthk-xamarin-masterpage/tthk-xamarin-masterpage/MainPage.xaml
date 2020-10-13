@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="tthk_xamarin_masterpage.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage IconImageSource="Hamburgericon.png" Title="Title"
+                        BackgroundColor="White">
+            <StackLayout Orientation="Vertical">
+                <ListView x:Name="navigationDrawerList"
+                  RowHeight="55"
+                  SeparatorVisibility="None"
+                  ItemTapped="Handle_ItemTapped"
+                  BackgroundColor="White">
+                    <ListView.Header>
+                        <StackLayout BackgroundColor="White">
+                            <Grid HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="30"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <controls:CircleImage  Aspect="AspectFill"  HeightRequest="80" WidthRequest="80" BorderColor="LimeGreen" BorderThickness="1"
+                       Source="avatar.jpg" Grid.Column="1" Grid.Row="1"/>
+
+                                <StackLayout  Grid.Row="1" VerticalOptions="CenterAndExpand" Grid.ColumnSpan="2"  Margin="10,0,0,0"
+                            Grid.Column="2"  Orientation="Vertical">
+                                    <Label FontSize="12"  Text="CarInfoApp"
+                        HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center"
+                        TextColor="Black" />
+                                    <Label FontSize="10" Text="Made by Narozni"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="Black"/>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout VerticalOptions="FillAndExpand"  
+                                 Orientation="Horizontal"  
+                                 Padding="20,10,0,10"  
+                                 Spacing="20">
+                                    <Image Source="{Binding Icon}"  
+                                     WidthRequest="30"  
+                                     HeightRequest="30"  
+                                     VerticalOptions="Center" />
+                                    <Label Text="{Binding Title}"  
+                                     FontSize="Medium"  
+                                     VerticalOptions="Center"  
+                                     TextColor="Black"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+</MasterDetailPage>
