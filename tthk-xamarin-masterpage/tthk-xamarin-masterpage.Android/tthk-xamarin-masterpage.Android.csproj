@@ -68,22 +68,6 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\audi.png" />
-    <AndroidResource Include="Resources\drawable\avatar.jpg" />
-    <AndroidResource Include="Resources\drawable\bmw.png" />
-    <AndroidResource Include="Resources\drawable\chevrolet.png" />
-    <AndroidResource Include="Resources\drawable\ford.png" />
-    <AndroidResource Include="Resources\drawable\Hamburgericon.png" />
-    <AndroidResource Include="Resources\drawable\icon.png" />
-    <AndroidResource Include="Resources\drawable\lexus.png" />
-    <AndroidResource Include="Resources\drawable\mercedesbenz.png" />
-    <AndroidResource Include="Resources\drawable\mitsubishi.png" />
-    <AndroidResource Include="Resources\drawable\nissan.png" />
-    <AndroidResource Include="Resources\drawable\peugeot.png" />
-    <AndroidResource Include="Resources\drawable\pinimg.png" />
-    <AndroidResource Include="Resources\drawable\renault.png" />
-    <AndroidResource Include="Resources\drawable\tesla.png" />
-    <AndroidResource Include="Resources\drawable\toyota.png" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
@@ -106,6 +90,57 @@
       <Project>{77E1147B-4C20-4E4A-B6B8-EAA5A0F41035}</Project>
       <Name>tthk-xamarin-masterpage</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\audi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bmw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chevrolet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ford.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Hamburgericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\lexus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\mercedesbenz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\mitsubishi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\nissan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\peugeot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pinimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\renault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tesla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\toyota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\useravatar.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

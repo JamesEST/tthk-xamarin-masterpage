@@ -8408,6 +8408,9 @@ namespace tthk_xamarin_masterpage.Droid
 			// aapt resource value: 0x7F070085
 			public const int toyota = 2131165317;
 			
+			// aapt resource value: 0x7F070086
+			public const int useravatar = 2131165318;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
