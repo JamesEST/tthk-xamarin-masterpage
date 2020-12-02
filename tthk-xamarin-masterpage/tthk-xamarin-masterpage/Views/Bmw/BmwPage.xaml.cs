@@ -15,6 +15,7 @@ namespace tthk_xamarin_masterpage.Views.Bmw
         public BmwPage()
         {
             InitializeComponent();
+
         }
     }
 }
