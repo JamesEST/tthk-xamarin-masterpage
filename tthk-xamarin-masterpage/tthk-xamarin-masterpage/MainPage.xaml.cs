@@ -64,14 +64,20 @@ namespace tthk_xamarin_masterpage
         {
             //When ever item is clicked then we are navigating to the details page
             // Сюда закидывать новые страницы
+
             var pageMyselecteditem = e.Item as MasterPageItem;
+            MasterPageItem hi = new MasterPageItem();
             switch (pageMyselecteditem.Id)
             {
                 case 1:
-                    await Navigation.PushAsync(new BmwPage());
+                    hi.a = "";
+                    hi.b = "";
+                    await Navigation.PushAsync(hi.ReturnPage());
                     break;
                 case 2:
-                    await Navigation.PushAsync(new AudiPage());
+                    hi.a = "";
+                    hi.b = "";
+                    await Navigation.PushAsync(hi.ReturnPage());
                     break;
                 case 3:
                     await Navigation.PushAsync(new FordPage());
