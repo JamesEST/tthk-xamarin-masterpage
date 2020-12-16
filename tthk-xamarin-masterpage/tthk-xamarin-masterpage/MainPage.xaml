@@ -11,7 +11,7 @@
              x:Class="tthk_xamarin_masterpage.MainPage">
 
     <MasterDetailPage.Master>
-        <ContentPage IconImageSource="Hamburgericon.png" Title="Title"
+        <ContentPage IconImageSource="hamburger.png" Title="Title"
                         BackgroundColor="White">
             <StackLayout Orientation="Vertical">
                 <ListView x:Name="navigationDrawerList"
@@ -39,7 +39,7 @@
 
                                 <StackLayout  Grid.Row="1" VerticalOptions="CenterAndExpand" Grid.ColumnSpan="2"  Margin="10,0,0,0"
                             Grid.Column="2"  Orientation="Vertical">
-                                    <Label FontSize="12"  Text="CarInfoApp"
+                                    <Label FontSize="12"  Text="Contact Book"
                         HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center"
                         TextColor="Black" />
@@ -71,6 +71,7 @@
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
+    
 
 
 </MasterDetailPage>

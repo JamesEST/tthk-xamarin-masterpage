@@ -6,9 +6,17 @@
              Title="Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hello, world!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
+            <!--Phone & SMS-->
+            <ImageButton Source="phone.png" Grid.Row="0" VerticalOptions="Center"
+                    Command="{Binding PhoneCommand}" BackgroundColor="Transparent" />
+            
+            <Label Grid.Column="1" Grid.Row="0"
+            VerticalOptions="Center"
+            Text="{Binding Contact.PhoneNumber}"/>
+            
+            <ImageButton Source="sms.png" Grid.Row="0" Grid.Column="2" VerticalOptions="Center"
+                    Command="{Binding SmsCommand}" BackgroundColor="Transparent"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
